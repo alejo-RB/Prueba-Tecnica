@@ -1,0 +1,62 @@
+﻿@model VehiculoModel
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Editar Vehiculo
+    </div>
+    <div class="card-body">
+
+        <form asp-action="Editar" asp-controller="Mantenedor" method="post">
+            <input asp-for="id" type="hidden" class="form-control">
+            <div class="mb-3">
+                <label class="form-label">Codigo</label>
+                <input asp-for="codigo" type="text" class="form-control">
+                <span asp-validation-for="codigo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Chasis</label>
+                <input asp-for="chasis" type="text" class="form-control">
+                <span asp-validation-for="chasis" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Marca</label>
+                <input asp-for="marca" type="text" class="form-control">
+                <span asp-validation-for="marca" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Modelo</label>
+                <input asp-for="modelo" type="text" class="form-control">
+                <span asp-validation-for="modelo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Año de Modelo</label>
+                <input asp-for="anio_modelo" type="text" class="form-control">
+                <span asp-validation-for="anio_modelo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Color</label>
+                <input asp-for="color" type="text" class="form-control">
+                <span asp-validation-for="color" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Estado</label>
+                <input asp-for="estado" type="text" class="form-control">
+                <span asp-validation-for="estado" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Fecha de Registro</label>
+                <input asp-for="fecha_registro" type="date" class="form-control">
+                <span asp-validation-for="fecha_registro" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning">Volver a la lista</a>
+        </form>
+
+
+
+    </div>
+</div>
