@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ymt2JXoZkMT83D3x/FFI0mCyIOQlDJzCBFf/m+J3h2EsLZUmGQX9F75TmOc3u2ZAO9ySQ7w3ySOwQ7KD7X9wGw==",
+  "dgSpecHash": "Ak/2lVUUKpf7nvIcjk/eirVR5XR7IYBT3lELGZLaOF9izJZcOfL3wFAeOqSpT6vyWY4VWBMEimyQWwfmAIJuzA==",
   "success": true,
   "projectFilePath": "C:\\DESARROLLO\\Prueba Tecnica\\CRUDCORE\\CRUDCORE\\CRUDCORE.csproj",
   "expectedPackageFiles": [
@@ -201,7 +201,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
   ],
   "logs": []
 }
